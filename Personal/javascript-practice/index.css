@@ -1,0 +1,72 @@
+.header-main{
+    display: flex;
+    align-items: center; 
+}
+
+#button-carrito{
+    width:30px;
+    height: 30px;
+}
+.space{
+    flex-grow: 9;
+}
+
+#div-card-shop{
+
+}
+
+#lol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(181, 223, 65);
+    border:1px solid rgb(0, 0, 0);
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+#imagen-lol{
+    width: 80%;
+    height: 10%;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.button-lol{
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+}
+
+
+.div-card-carrito{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(202, 37, 37);
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#div-card-shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+
+#button-carrito__in{
+    width:60%;
+    height: 60%;
+}
+.carrito__close{
+    display: none;
+}
